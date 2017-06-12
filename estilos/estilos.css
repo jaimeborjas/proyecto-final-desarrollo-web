@@ -5,6 +5,39 @@ body{
     margin-right: 10vh
         
 }
+@media all (max-width:900px) {
+    .menu{
+        width: 100%;
+        order1;
+    }
+    .img1{
+        width: 100%;
+        order: 2;
+    }
+    .img2{
+        width: 100%;
+        order: 3;
+    }
+    .cont{
+        width:100%;
+        order: 4;
+    }
+     .term{
+        width:100%;
+        order: 5;
+    }
+     .redes{
+        width:100%;
+        order: 6;
+    }
+     .dere{
+        width:100%;
+        order: 7;
+    }
+}
+@media (min-width:901px) {
+
+}
 @font-face{
     font-family:'dancingspirit';
     src: url('dancingspirit.ttf')
@@ -13,11 +46,11 @@ header{
     background-color: #5b7989;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 80px;
+
 }
 header h1{
     color: white;
-    padding: 1vh 1vw ;
+    padding: 1vh 2vw ;
     float: left;
         
 }
@@ -27,12 +60,15 @@ header h1{
     display: flex;
     justify-content:flex-end;
     padding: 1vh 5%;
+    background-color: #5b7989;
 }
 .menu li a{
     padding: 3.5vh;
     float: right;
     color: white;
-    justify-content: flex-end
+    justify-content: flex-end;
+    background-color: #5b7989;
+
 }
 .img1{
     background-color: #82c3a6;
@@ -49,7 +85,8 @@ header h1{
 footer{
     background-color: #C6d5c5;
     display: flex;
-    padding:
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
 }
 footer div{
     width: 100%;
