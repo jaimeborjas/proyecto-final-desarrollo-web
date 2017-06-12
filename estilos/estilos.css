@@ -5,38 +5,33 @@ body{
     margin-right: 10vh
         
 }
-@media all (max-width:900px) {
-    .menu{
-        width: 100%;
-        order1;
+@media screen and (max-width:900px) {
+    body{
+        margin: 2vh
     }
-    .img1{
-        width: 100%;
-        order: 2;
-    }
-    .img2{
-        width: 100%;
-        order: 3;
-    }
-    .cont{
-        width:100%;
-        order: 4;
-    }
-     .term{
-        width:100%;
-        order: 5;
-    }
-     .redes{
-        width:100%;
-        order: 6;
-    }
-     .dere{
-        width:100%;
-        order: 7;
-    }
-}
-@media (min-width:901px) {
+    .piepag{
+        display: list-item;
+        margin: 0 auto;
 
+    }
+    header{
+        height: 35vh
+    }
+    .titulo{
+        width: 100%;
+        text-align: center
+    }
+    .menu ul li{
+        width: 100%;
+        background-color: #5b7989;
+        margin: 0 auto;
+        justify-content: center
+    }
+    .barra{
+        width: 100%;
+        height: 200px;
+        background-color: #5b7989;
+    }
 }
 @font-face{
     font-family:'dancingspirit';
@@ -46,41 +41,50 @@ header{
     background-color: #5b7989;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
 }
-header h1{
+.titulo{
     color: white;
-    padding: 1vh 2vw ;
+    padding: 2vw ;
     float: left;
         
 }
+.menu{
+    width: 100%;
+    height: 100px;
+    color: white;
+}
 .menu ul{
-    list-style: none;
-    padding: 0;
+    list-style:none;
+    padding: 3vh;
     display: flex;
     justify-content:flex-end;
-    padding: 1vh 5%;
     background-color: #5b7989;
+    color: white
+
 }
-.menu li a{
-    padding: 3.5vh;
+.barra a{
     float: right;
     color: white;
     justify-content: flex-end;
-    background-color: #5b7989;
-
+    padding:2vh;
+    color: white
+}
+header ul li{
+    padding: 3vh;
+    color: white;
 }
 .img1{
     background-color: #82c3a6;
     width: 100%;
-    height: 700px;
+    height: 600px;
     margin-top: 0px
 }
 .img2{
-    background-color:red;
+    background-color:#d5c75f ;
     width: 100%;
-    height: 700px;
-    margin-top: 0px
+    height: 600px;
+    margin-top: 0px;
+    border: 1px
 }
 footer{
     background-color: #C6d5c5;
