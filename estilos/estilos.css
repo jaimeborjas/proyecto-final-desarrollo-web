@@ -9,11 +9,6 @@ body{
     body{
         margin: 2vh
     }
-    .piepag{
-        display: list-item;
-        margin: 0 auto;
-
-    }
     header{
         height: 35vh;
         border-top-left-radius: 20px;
@@ -21,18 +16,41 @@ body{
     }
     .titulo{
         width: 100%;
-        text-align: center
+        text-align: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
     .menu ul li{
-        width: 100%;
         background-color: #5b7989;
         margin: 0 auto;
-        justify-content: center
+        max-width: 100%;
+        padding: 0px;
+        padding-left: auto
+
     }
     .barra{
         width: 100%;
         height: 200px;
         background-color: #5b7989;
+    }
+    .menu ul{
+        display: block;
+        width: 100%;
+        padding: 0px;
+        display: block;
+
+    }
+    .piepag{
+        display: list-item;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .piepag div{
+        width: auto;
+    }
+    .img2{
+        display: list-item;
+        max-width: 100%;
     }
 }
 @font-face{
@@ -57,7 +75,7 @@ header{
 }
 .menu ul{
     list-style:none;
-    padding: 3vh;
+    padding-right: 0;
     display: flex;
     justify-content:flex-end;
     background-color: #5b7989;
@@ -72,8 +90,12 @@ header{
     color: white
 }
 header ul li{
-    padding: 3vh;
+    padding: 2vh;
     color: white;
+}
+.contendo{
+    width: 100%;
+    height: 900px;
 }
 .img1{
     background-color: #82c3a6;
@@ -91,9 +113,40 @@ header ul li{
 .img2{
     background-color:#d5c75f ;
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin-top: 0px;
-    border: 1px
+    border: 1px;
+    display: flex
+}
+.galeria1{
+    width: 100%;
+    height: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+
+	display: flex;
+	justify-content: space-around;
+}
+.paisa{
+    width: 50%
+}
+.paisa img{
+   display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding: 10px
+}
+.paisa1{
+    width: 50%
+}
+.paisa1 img{
+   display: block;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding: 10px
 }
 footer{
     background-color: #C6d5c5;
