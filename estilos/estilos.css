@@ -7,10 +7,12 @@ body{
 }
 @media screen and (max-width:900px) {
     body{
-        margin: 2vh
+        margin: 2vh;
+         border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
     header{
-        height: 35vh;
+        height: 30vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -18,6 +20,10 @@ body{
         width: 100%;
         text-align: center;
         border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .menu{
+         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
     .menu ul li{
@@ -30,8 +36,10 @@ body{
     }
     .barra{
         width: 100%;
-        height: 200px;
+        height: 30vh;
         background-color: #5b7989;
+         border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
     }
     .menu ul{
         display: block;
@@ -39,6 +47,41 @@ body{
         padding: 0px;
         display: block;
 
+    }
+    .img2{
+        display: list-item;
+        max-width: 100%;
+    }
+    .galeria1{
+        width: 100%;
+        height: auto;
+	    list-style: none;
+	    display: block;
+        display: list-item
+
+}
+    .paisa{
+        width: 100px;
+        height: 50%;
+        display: list-item
+    }
+    .paisa img{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+    }
+    .paisa1{
+        width: 100%;
+        height: 50%;
+    }
+    .paisa1 img{
+        display: block;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
     }
     .piepag{
         display: list-item;
@@ -48,10 +91,10 @@ body{
     .piepag div{
         width: auto;
     }
-    .img2{
-        display: list-item;
-        max-width: 100%;
+    .cont h2{
+        margin: 0;
     }
+
 }
 @font-face{
     font-family:'dancingspirit';
@@ -78,8 +121,8 @@ header{
     padding-right: 0;
     display: flex;
     justify-content:flex-end;
-    background-color: #5b7989;
-    color: white
+    color: white;
+    margin: 0;
 
 }
 .barra a{
@@ -93,14 +136,14 @@ header ul li{
     padding: 2vh;
     color: white;
 }
-.contendo{
+.contenido{
     width: 100%;
-    height: 900px;
+    height: auto;
 }
 .img1{
     background-color: #82c3a6;
     width: 100%;
-    height: 600px;
+    height: auto;
     margin-top: 0px
 }
 .img1 img{
@@ -124,22 +167,21 @@ header ul li{
 	list-style: none;
 	padding: 20px;
 	box-sizing: border-box;
-
-	display: flex;
+	display:flex;
 	justify-content: space-around;
 }
 .paisa{
     width: 50%
 }
 .paisa img{
-   display: block;
+    display: block;
     margin: auto;
     width: 90%;
     height: 90%;
     padding: 10px
 }
 .paisa1{
-    width: 50%
+    width: 50%;
 }
 .paisa1 img{
    display: block;
@@ -147,6 +189,20 @@ header ul li{
     width: 90%;
     height: 90%;
     padding: 10px
+}
+.galeria2{
+    background-color: #d5c75f;
+    width: 100%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap
+
+}
+.galeria2 ul{
+    margin: 0
 }
 footer{
     background-color: #C6d5c5;
