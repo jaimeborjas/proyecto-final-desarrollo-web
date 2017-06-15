@@ -103,7 +103,7 @@ header{
         margin-top: 0%
 
 img{
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 5px 1px #02010a;
 }
 .titulo{
     color: white;
@@ -237,8 +237,17 @@ header ul li{
 .cont{
     padding-top: 10px
 }
-.retra1 hover{
+.retra1{
+    transition: transform 1s
+}
+.retra1:hover{
     transform: rotate(10deg)
+}
+.retra2{
+    transition: translate 2s
+}
+.retra2:hover{
+    translate(5px 20px)
 }
 a:active{
     text-decoration: none
