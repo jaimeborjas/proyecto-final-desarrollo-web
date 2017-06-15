@@ -5,7 +5,7 @@ body{
     margin-right: 10vh
         
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) and (min-width:200px) {
     body{
         margin: 2vh;
          border-top-left-radius: 20px;
@@ -15,6 +15,14 @@ body{
         height: 30vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+    }
+    .galeria2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria2 li{
+        width: 90%!important
     }
     .titulo{
         width: 100%;
@@ -59,29 +67,9 @@ body{
 	    display: block;
         display: list-item
 
-}
-    .paisa{
-        width: 100px;
-        height: 50%;
-        display: list-item
     }
-    .paisa img{
-        display: block;
-        margin: auto;
-        width: 90%;
-        height: 90%;
-        padding: 10px;
-    }
-    .paisa1{
-        width: 100%;
-        height: 50%;
-    }
-    .paisa1 img{
-        display: block;
-        margin: auto;
-        width: 90%;
-        height: 90%;
-        padding: 10px;
+    .galeria1 li{
+        width: 90%!important
     }
     .piepag{
         display: list-item;
@@ -104,6 +92,9 @@ header{
     background-color: #5b7989;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+img{
+    box-shadow: 2px 2px 5px black;
 }
 .titulo{
     color: white;
@@ -144,19 +135,22 @@ header ul li{
     background-color: #82c3a6;
     width: 100%;
     height: auto;
-    margin-top: 0px
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+    margin: 0;
+}
+.img1 li{
+    width: 100%;
+    justify-content: center
 }
 .img1 img{
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 90%;
-    padding: 10px
+    width: 100%;
 }
 .img2{
     background-color:#d5c75f ;
     width: 100%;
-    height: 500px;
+    height: auto;
     margin-top: 0px;
     border: 1px;
     display: flex
@@ -169,40 +163,55 @@ header ul li{
 	box-sizing: border-box;
 	display:flex;
 	justify-content: space-around;
+    background-color:#d5c75f ;
+
 }
-.paisa{
-    width: 50%
+.galeria1 ul{
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-.paisa img{
-    display: block;
-    margin: auto;
-    width: 90%;
-    height: 90%;
-    padding: 10px
+.galeria1 li{
+     margin: 20px;
+    width: 45%;
+    justify-content: center
 }
-.paisa1{
-    width: 50%;
-}
-.paisa1 img{
-   display: block;
-    margin: auto;
-    width: 90%;
-    height: 90%;
-    padding: 10px
+.galeria1 img{
+    width: 100%;
+    height: 100%
 }
 .galeria2{
     background-color: #d5c75f;
     width: 100%;
     margin: auto;
     list-style: none;
-    padding: 20px;
+    padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap
 
 }
 .galeria2 ul{
-    margin: 0
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galeria2 li{
+    margin: 10px;
+    width: 29%;
+    height: 29%;
+    justify-content: center
+}
+.galeria2 img{
+    width: 100%;
+    display: flex;
+    justify-content: center
 }
 footer{
     background-color: #C6d5c5;
