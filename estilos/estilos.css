@@ -237,6 +237,15 @@ header ul li{
 .cont{
     padding-top: 10px
 }
+.retra1 hover{
+    transform: rotate(10deg)
+}
+a:active{
+    text-decoration: none
+}
+a:visited {
+    text-decoration:none
+}
 footer{
     background-color: #C6d5c5;
     display: flex;
