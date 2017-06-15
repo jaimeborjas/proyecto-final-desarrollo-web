@@ -11,7 +11,7 @@ body{
         border-top-right-radius: 20px;
     }
     header{
-        height: 30vh;
+        height: 20vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -28,6 +28,7 @@ body{
         text-align: center;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+
     }
     .menu{
          border-top-left-radius: 20px;
@@ -91,17 +92,13 @@ header{
     background-color: #5b7989;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    animation-name: myanimation;
-    animation-duration: 5s
+    animation: myanimation 1s
 }
-@keyframe myanimation
-    0%
-        margin-top: 150%
-    60%
-        margin-top: 5%
-    100%
-        margin-top: 0%
-
+@keyframes myanimation {
+    0%{margin-top: 150%}
+    60%{margin-top: -5%}
+    100%{margin-top: 0%}
+}
 img{
     box-shadow: 2px 5px 1px #02010a;
 }
@@ -244,10 +241,10 @@ header ul li{
     transform: rotate(10deg)
 }
 .retra2{
-    transition: translate 2s
+    transition: transform 2s
 }
 .retra2:hover{
-    translate(5px 20px)
+    transform:  translate(5px, 20px)
 }
 a:active{
     text-decoration: none
