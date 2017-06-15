@@ -11,7 +11,7 @@ body{
         border-top-right-radius: 20px;
     }
     header{
-        height: 20vh;
+        height: 30vh;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
@@ -24,11 +24,14 @@ body{
         width: 90%!important
     }
     .titulo{
-        width: 100%;
         text-align: center;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+        float: none;
 
+    }
+    .contenido{
+        width: 100%
     }
     .menu{
          border-top-left-radius: 20px;
@@ -105,12 +108,14 @@ img{
 .titulo{
     color: white;
     padding: 2vw ;
-    float: left;
+    font-size: 150%;
+    text-align: center;
+    float: left
         
 }
 .menu{
     width: 100%;
-    height: 100px;
+    height: 170px;
     color: white;
 }
 .menu ul{
@@ -120,6 +125,8 @@ img{
     justify-content:flex-end;
     color: white;
     margin: 0;
+    font-size: 150%;
+    padding-top: 25px
 
 }
 .barra a{
@@ -135,7 +142,6 @@ header ul li{
 }
 .contenido{
     width: 100%;
-    height: auto;
 }
 .img1{
     background-color: #82c3a6;
@@ -170,6 +176,8 @@ header ul li{
 	display:flex;
 	justify-content: space-around;
     background-color:#d5c75f ;
+    text-align: center;
+    font-size: 150%
 
 }
 .galeria1 ul{
@@ -235,22 +243,29 @@ header ul li{
     padding-top: 10px
 }
 .retra1{
-    transition: transform 1s
+    transition: transform 1s;
+
+}
+.retra1 a{
+
 }
 .retra1:hover{
     transform: rotate(10deg)
 }
 .retra2{
-    transition: transform 2s
+    transition: transform 1s
 }
 .retra2:hover{
     transform:  translate(5px, 20px)
 }
-a:active{
+a.ini{
     text-decoration: none
 }
-a:visited {
-    text-decoration:none
+a.paisa{
+    text-decoration: none
+}
+a.retra{
+    text-decoration: none
 }
 footer{
     background-color: #C6d5c5;
@@ -261,4 +276,10 @@ footer{
 footer div{
     width: 100%;
     padding-left: 4vh;
+}
+footer h1{
+    font-size: 200%
+}
+footer li{
+    font-size: 150%
 }
